@@ -16,3 +16,17 @@ SEED_V='mysecrettoken'
 CADUCIDAD_TOKEN='10h'
 HOST_AWS=http://localhost:8080/
 ```
+### Instala las dependencia
+```
+npm i
+```
+
+### Crea los contenedores la primera vez
+```
+docker-compose up --build
+```
+
+### Para iniciar el servidor
+```
+docker-compose up
+```
