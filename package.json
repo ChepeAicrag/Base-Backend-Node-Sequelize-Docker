@@ -1,0 +1,47 @@
+{
+  "name": "Base-Backend-Node-Sequelize-Docker",
+  "version": "1.0.0",
+  "description": "Base para proyectos de backend con Node js, Docker, Sequelize, PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -L --exec babel-node index.js ",
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChepeAicrag12/Base-Backend-Node-Sequelize-Docker.git"
+  },
+  "keywords": [],
+  "author": "Jose Angel Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChepeAicrag12/Base-Backend-Node-Sequelize-Docker/issues"
+  },
+  "homepage": "https://github.com/ChepeAicrag12/Base-Backend-Node-Sequelize-Docker#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "generate-password": "^1.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.0",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.14.1",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "sequelize-cli": "^6.2.0"
+  }
+}
